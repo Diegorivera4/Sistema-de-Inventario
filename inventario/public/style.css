@@ -1,0 +1,173 @@
+/* General */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Tablas */
+.table th, .table td {
+  vertical-align: middle !important;
+}
+
+.table thead th {
+  background-color: #343a40;
+  color: white;
+}
+
+/* Formularios */
+form label {
+  font-weight: 500;
+}
+
+form input, form textarea {
+  border-radius: 0.375rem;
+}
+
+/* Botones */
+.btn {
+  border-radius: 0.375rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+/* Badges de estado */
+.stock-status {
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+.stock-status.disponible,
+.badge.bg-success {
+  background-color: #198754 !important;
+}
+
+.stock-status.agotado,
+.badge.bg-danger {
+  background-color: #dc3545 !important;
+}
+
+/* Alertas */
+.alert ul {
+  margin-bottom: 0;
+}
+
+/* Tarjetas del dashboard */
+.card {
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Inputs de búsqueda */
+form[role="search"] input {
+  min-width: 250px;
+}
+
+/* Paginación */
+.pagination .page-item.active .page-link {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.pagination .page-link {
+  color: #0d6efd;
+}
+
+/* Animaciones suaves */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Transición general para botones y tarjetas */
+.card, .btn, .form-control, .page-link {
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+body.dark {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark .table {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+body.dark .table thead th {
+  background-color: #2c2c2c;
+  color: #ffffff;
+}
+
+body.dark .form-control,
+body.dark .form-select {
+  background-color: #2a2a2a;
+  color: #fff;
+  border-color: #444;
+}
+
+body.dark .card {
+  background-color: #1f1f1f;
+  color: #fff;
+  border-color: #444;
+}
+
+body.dark .btn-outline-dark {
+  color: #fff;
+  border-color: #ccc;
+}
+
+body.dark .btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+body.dark .btn-outline-primary:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+body.dark .btn-outline-danger {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+body.dark .btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+body.dark .table tbody tr:hover {
+  background-color: #292929;
+}
