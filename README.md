@@ -12,7 +12,7 @@ Pasos Para Instalarlo
 •	Si estás usando XAMPP:
 •	Asegúrate de tener activados Apache y MySQL desde el panel de control de XAMPP.
 •	Accede al sistema desde tu navegador:
-http://localhost/turepositorio
+http://localhost/turepositorio 
 
 Algunos requisitos para tener en cuenta son:
  Requisitos
